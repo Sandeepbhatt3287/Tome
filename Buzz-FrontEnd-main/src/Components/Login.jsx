@@ -8,7 +8,7 @@ import TextField from '@mui/material/TextField';
 import LoginStyle from './loginStyle.css';
 import Checkbox from '@mui/material/Checkbox';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import TTN from '../Assests/TTN-logo.jpg';
+import TTN from '../Assests/Tome_Logo.png';
 import { Link, useNavigate } from "react-router-dom";
 import axios from 'axios';
 import { GoogleLogout, GoogleLogin } from 'react-google-login'
@@ -68,6 +68,7 @@ export default function Login() {
         <Card style={{ border: "none", boxShadow: "none" }}>
           <div className="ttn-img">
             <img src={TTN} alt="" />
+            {/* <h1>Tome world</h1> */}
           </div>
           <CardContent>
             <Typography gutterBottom variant="h4" component="div" sx={{ textAlign: 'center' }}>

@@ -46,7 +46,7 @@ export default function Share() {
                 <div className="shareTop">
                     <img className="shareProfileImg" src={user.profileImg ? path + user.profileImg : profilePicture} alt="" />
                     <input
-                        placeholder="What's in your mind Safak"
+                        placeholder="What's in your mind"
                         className="shareInput"
                         value={caption}
                         onChange={(e)=>setCaption(e.target.value)} />
